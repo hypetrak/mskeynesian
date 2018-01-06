@@ -2,9 +2,9 @@
 endogenous pai, "Inflation", y, "Output gap", r, "Interest rate"
 exogenous EPS_Y,  "Output shock", EPS_PAI,  "Inflation shock", EPS_R,  "Monetary policy shock"
 
-% Macierz przejścia
+% Transition matrix
 % [0.91, 0.09 ; 0.09, 0.091];
-% Polityka aktywna - 1, pasywna = 2
+% Active policy - 1, Passive policy = 2
 
 parameters alph, betta, kappa, rhor, gamma, a_tp_1_2, a_tp_2_1
 parameters(a,2) delta, epsi
